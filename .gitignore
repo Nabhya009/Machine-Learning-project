@@ -1,0 +1,16 @@
+# Dataset (Kaggle rules restrict redistribution; see README for download)
+data/*.csv
+
+# Python / Jupyter clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Personal Claude Code settings (team-shared settings.json is committed)
+.claude/settings.local.json
+
+# OS files
+.DS_Store
+Thumbs.db
