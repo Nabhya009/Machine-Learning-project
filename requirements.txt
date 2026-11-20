@@ -1,0 +1,10 @@
+# Minimum versions needed by notebooks/02_modelling.ipynb.
+# Tested in Google Colab (Python 3.13, CPU) with: pandas 2.2.3, numpy 2.4.6,
+# scikit-learn 1.6.1, xgboost 3.4.1, shap 0.54.1.
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4    # TargetEncoder and root_mean_squared_error were added in 1.4
+xgboost>=2.0
+shap>=0.44
+matplotlib>=3.7
+gdown>=5.0           # downloads train.csv from the shared Google Drive copy

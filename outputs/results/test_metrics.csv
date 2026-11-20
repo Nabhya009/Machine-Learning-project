@@ -1,0 +1,2 @@
+model,RMSE (log price),"CV RMSE (log price), for comparison",MAE (USD),R2 (log price),R2 (USD),MAPE (%),test houses
+Lasso,0.1096,0.1123,14234.8154,0.9284,0.9307,8.218,292
